@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asjid Ahmed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class='sidebar sidebarGo'>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img src="ham.png" alt="" class="ham" width="23">
+                <img src="cross.png" alt="" class="cross" width="23">
+            </div>
+            <div class="contactForm">
+                <h1>Contact Me</h1>
+                <p>Please send me your feedbacks</p>
+                <form>
+                    <div class="subForm">
+                        <div class="feedDetails">
+                            <div class="form-group">
+                                <input type="name" class="form-control" id="clientName" aria-describedby="emailHelp" placeholder="Your Name*">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp" placeholder="Your Email*">
+                                <small id="emailHelp" class="form-text text-muted"><br>We'll never share your email or contact with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="phone" class="form-control" id="clientPhone" placeholder="Your Phone*">
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="form-group">
+                                <input type="inquiry" class="form-control" id="clientInquiry" placeholder="Your Message*">
+                            </div>
+                            <div class="form-group" id="form-check">
+                                <input type="checkbox" class="form-check-input" id="isClient">
+                                <label class="form-check-label" for="isClient">Want to work on a project with me?</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
